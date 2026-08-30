@@ -36,4 +36,6 @@ The important artifact is therefore not a pile of AI-generated code.
 
 It is the traceable sequence of judgment that moved the system from a plausible answer to a better one, including the places where different AI systems exposed different assumptions or failure modes.
 
+Not every artifact in this portfolio was AI-assisted. [From Banking Controls to Retail Fraud Prevention](earlier-systems-work/01-from-banking-controls-to-retail-fraud-prevention.md) documents a 2020 systems-and-training intervention that predates my use of generative AI. I include it specifically because it shows that the underlying pattern - identifying a broken assumption, transferring relevant knowledge across domains, and turning it into an operational system - existed before the models became part of my workflow.
+
 When useful, individual case studies include a **What I did / What AI did** section so the division is explicit.
