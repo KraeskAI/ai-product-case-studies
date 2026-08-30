@@ -2,7 +2,9 @@
 
 This portfolio is deliberately transparent about AI use.
 
-I use frontier AI systems extensively for:
+I work extensively across GPT, Claude, and Gemini, often using more than one model on the same project for different roles or perspectives. That has made cross-model context management, handoff, comparison, and disagreement part of the work itself rather than incidental tooling.
+
+I use frontier AI systems for:
 
 - technical research;
 - code implementation;
@@ -10,7 +12,9 @@ I use frontier AI systems extensively for:
 - test generation;
 - repository inspection;
 - literature and product research;
-- drafting and editing documentation.
+- drafting and editing documentation;
+- comparative model-behavior checks;
+- cross-model handoff and review.
 
 I do not represent AI-generated implementation as evidence that I personally possess conventional software-engineering depth.
 
@@ -20,6 +24,8 @@ The work I am presenting as mine is:
 - observing failures in real use;
 - defining intended product behavior;
 - discovering hidden constraints;
+- deciding which model or workflow is useful for a particular part of the investigation;
+- maintaining coherent project state while work moves among models;
 - directing investigation;
 - challenging incomplete explanations;
 - deciding what tradeoffs are acceptable;
@@ -28,6 +34,6 @@ The work I am presenting as mine is:
 
 The important artifact is therefore not a pile of AI-generated code.
 
-It is the traceable sequence of judgment that moved the system from a plausible answer to a better one.
+It is the traceable sequence of judgment that moved the system from a plausible answer to a better one, including the places where different AI systems exposed different assumptions or failure modes.
 
 When useful, individual case studies include a **What I did / What AI did** section so the division is explicit.
