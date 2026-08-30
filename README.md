@@ -20,6 +20,7 @@ My process is empirical and iterative:
 - Recommender and model-behavior reasoning
 - Evaluation criteria and regression-test design
 - Cross-model context management, role separation, and handoff design
+- Cross-disciplinary transfer of useful controls and practices into new environments
 - Provenance, authority, and collaboration rules
 - Iterative direction of AI research and coding agents
 - Judgment about when a technically plausible solution still fails the user
@@ -43,8 +44,15 @@ See [AI Collaboration Disclosure](AI_COLLABORATION_DISCLOSURE.md).
 3. **[Two Humans, Two AIs, One Canonical Creative Project](case-studies/03-two-humans-two-ais-one-canonical-project.md)**  
    A collaboration design for two human creators using separate AI conversations against one shared repository, with explicit provenance, context handoff, branch authority, and creative-agency safeguards.
 
+## Earlier systems work
+
+**[From Banking Controls to Retail Fraud Prevention](earlier-systems-work/01-from-banking-controls-to-retail-fraud-prevention.md)**  
+A 2020 example, before generative AI entered my workflow, of identifying an accountability and training gap after a real fraud incident, transferring relevant controls from banking into luxury retail, and turning them into practical frontline training and procedure.
+
+I include this separately because it helps establish that the underlying pattern in the AI case studies - finding a broken assumption, following the seam across disciplines, and turning the result into an explicit usable system - predates the models.
+
 ## Portfolio descriptor
 
 **AI Product & Model Behavior Designer**
 
-This is a portfolio descriptor, not a claim of a previous formal job title. The work sits at the intersection of product reasoning, model behavior, evaluation, human-AI interaction, multi-model workflows, and AI-assisted systems design.
+This is a portfolio descriptor, not a claim of a previous formal job title. The work sits at the intersection of product reasoning, model behavior, evaluation, human-AI interaction, multi-model workflows, cross-disciplinary systems thinking, and AI-assisted systems design.
