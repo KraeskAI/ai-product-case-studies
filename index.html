@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Product & Model Behavior Portfolio</title>
+<style>
+:root { color-scheme: light dark; --max: 980px; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; line-height:1.55; }
+main { max-width:var(--max); margin:0 auto; padding:64px 24px 90px; }
+.eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:.78rem; opacity:.65; }
+h1 { font-size:clamp(2.5rem,7vw,5rem); line-height:.98; max-width:850px; margin:.4rem 0 1.3rem; }
+.lede { font-size:1.25rem; max-width:760px; opacity:.82; }
+section { margin-top:64px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+.card { border:1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius:16px; padding:22px; }
+.card h3 { margin-top:0; }
+.tag { display:inline-block; border:1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius:999px; padding:4px 9px; font-size:.78rem; margin:0 6px 6px 0; }
+.small { font-size:.92rem; opacity:.72; }
+blockquote { margin:28px 0; padding-left:18px; border-left:3px solid currentColor; font-size:1.1rem; }
+a { color:inherit; }
+footer { margin-top:72px; font-size:.88rem; opacity:.65; }
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">Independent case studies</div>
+<h1>AI Product &amp; Model Behavior</h1>
+<p class="lede">I investigate where AI-assisted systems fail in real use, turn messy observations into explicit behavior rules, direct AI research and coding agents through implementation, and keep iterating until the product matches the intended human meaning.</p>
+
+<section>
+<h2>What I actually do</h2>
+<div>
+<span class="tag">Model behavior</span><span class="tag">Product reasoning</span><span class="tag">Evals</span>
+<span class="tag">Human-AI interaction</span><span class="tag">Recommendation systems</span>
+<span class="tag">Context &amp; memory</span><span class="tag">Provenance</span><span class="tag">Agent workflows</span>
+</div>
+<p>I am not presenting myself as a conventional software engineer. Frontier AI systems perform much of the implementation, technical research, review, and drafting. My work is problem discovery, semantics, constraints, direction, evaluation, and the judgment to reject a technically plausible answer when the real product is still wrong.</p>
+</section>
+
+<section>
+<h2>Case studies</h2>
+<div class="grid">
+<div class="card">
+<h3><a href="case-studies/01-when-more-metadata-made-the-recommender-worse.md">When More Metadata Made the Recommender Worse</a></h3>
+<p>A recommender repeatedly over-selected anime. Two plausible fixes were correct but insufficient. The deeper failure was structural metadata-density bias, followed by a separate slate-composition problem.</p>
+<p class="small">Behavior debugging · ranking bias · eval design · slate composition</p>
+</div>
+<div class="card">
+<h3><a href="case-studies/02-stop-making-the-human-be-the-api.md">Stop Making the Human Be the API</a></h3>
+<p>A persistent-context system evolved from an overbuilt application toward a lightweight MCP engine designed to remove the human from the bookkeeping loop.</p>
+<p class="small">Agent memory · context architecture · product simplification</p>
+</div>
+<div class="card">
+<h3><a href="case-studies/03-two-humans-two-ais-one-canonical-project.md">Two Humans, Two AIs, One Canonical Creative Project</a></h3>
+<p>A collaboration model for two humans using private AI conversations against one shared repository, with explicit provenance, context handoff, and authority rules.</p>
+<p class="small">Multi-agent collaboration · provenance · human agency</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>A recurring pattern</h2>
+<blockquote>Observation → hypothesis → attempted correction → real-world evaluation → contradiction → deeper model → product rule → implementation → regression coverage.</blockquote>
+<p>The work is not interesting because an AI wrote code. It is interesting when a system keeps producing a plausible answer that does not survive contact with actual use, and the investigation turns that mismatch into a better product rule.</p>
+</section>
+
+<section>
+<h2>Current professional direction</h2>
+<p>Roles around model design, model behavior, AI product quality, evals, human-AI interaction, research product, and AI product operations. The case studies are intended to make a nontraditional path legible through evidence rather than credential theater.</p>
+<p><a href="AI_COLLABORATION_DISCLOSURE.md">AI collaboration disclosure</a></p>
+</section>
+
+<footer>Working portfolio · 2026</footer>
+</main>
+</body>
+</html>
