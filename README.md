@@ -44,6 +44,9 @@ See [AI Collaboration Disclosure](AI_COLLABORATION_DISCLOSURE.md).
 3. **[Two Humans, Two AIs, One Canonical Creative Project](case-studies/03-two-humans-two-ais-one-canonical-project.md)**  
    A collaboration design for two human creators using separate AI conversations against one shared repository, with explicit provenance, context handoff, branch authority, and creative-agency safeguards.
 
+4. **[The Status Wasn't the State](case-studies/04-the-status-wasnt-the-state.md)**  
+   A messy music-submission workflow became a local reconciliation tool after separating event booking, play history, radio rotation, and backend status into distinct concepts. Real use exposed timing, schema, and availability edge cases; the prototype was then handed to the platform maintainers, who began adapting the useful ideas into the native uploader.
+
 ## Earlier systems work
 
 **[From Banking Controls to Retail Fraud Prevention](earlier-systems-work/01-from-banking-controls-to-retail-fraud-prevention.md)**  
