@@ -1,6 +1,8 @@
 # AI Product & Model Behavior Portfolio
 
-I investigate where AI-assisted systems fail in real use, especially when the failure is not a single bug but a mismatch between model behavior, data, product constraints, and human workflow.
+I investigate where AI-assisted systems fail in real use, then turn those discoveries into product rules, operational workflows, and working tools. My work now spans model behavior and evaluation, AI-native product direction, multi-agent coordination, and creative tooling. I direct AI research and coding agents while retaining responsibility for requirements, tradeoffs, user testing, and acceptance.
+
+The newer projects are not just thought experiments: they include working desktop tools, local agent infrastructure, browser-based creative software, and a deployed-but-not-yet-live-publishing audience service. Their status and limits are documented rather than collapsed into blanket claims of production readiness.
 
 My process is empirical and iterative:
 
@@ -14,6 +16,9 @@ My process is empirical and iterative:
 
 ## What I contribute
 
+- AI-assisted product ownership from initial observation through usability testing and release decisions
+- Multi-agent delegation, work partitioning, independent QA, and verification-driven delivery
+- Design of local operator tools, live workflows, and cross-system integrations
 - Product and behavior problem discovery
 - Requirements extracted from messy real-world observations
 - Human-AI workflow design
@@ -33,19 +38,33 @@ I use GPT, Claude, and Gemini extensively, often in parallel across the same pro
 
 See [AI Collaboration Disclosure](AI_COLLABORATION_DISCLOSURE.md).
 
-## Case studies
+## Selected product and operational case studies
 
-1. **[When More Metadata Made the Recommender Worse](case-studies/01-when-more-metadata-made-the-recommender-worse.md)**  
-   A recommendation system repeatedly over-selected anime. Two plausible fixes were correct but insufficient. The deeper failure was structural metadata-density bias, followed by a separate slate-composition problem.
+1. **[Building Nightwire Around the Host's Actual Workflow](case-studies/05-building-nightwire-as-a-real-host-workflow.md)**  
+   A two-screen live music-hosting application evolved through real show needs, multi-provider media integration, hardware controls, stable/beta separation, and ongoing real-device acceptance.
 
-2. **[Stop Making the Human Be the API](case-studies/02-stop-making-the-human-be-the-api.md)**  
-   Continuum evolved from an overbuilt application into a lightweight MCP context server designed around one product rule: the agent should handle context bookkeeping instead of making the human continually re-explain the project.
+2. **[Hydra: When Agent Activity Is Not Progress](case-studies/06-hydra-when-agent-activity-is-not-progress.md)**  
+   Coordinating GPT/Codex, Claude, and AGY exposed the difference between running processes, useful progress, and verified completion. A local orchestration and observability system grew from those distinctions.
 
-3. **[Two Humans, Two AIs, One Canonical Creative Project](case-studies/03-two-humans-two-ais-one-canonical-project.md)**  
-   A collaboration design for two human creators using separate AI conversations against one shared repository, with explicit provenance, context handoff, branch authority, and creative-agency safeguards.
+3. **[A Playlist Is Not a Play History](case-studies/07-live-playlist-what-actually-played.md)**  
+   A public audience service distinguishes an intended queue from a truthful record of completed plays. Deployed prototype; live publishing integration remains under evaluation.
 
-4. **[The Status Wasn't the State](case-studies/04-the-status-wasnt-the-state.md)**  
-   A messy music-submission workflow became a local reconciliation tool after separating event booking, play history, radio rotation, and backend status into distinct concepts. Real use exposed timing, schema, and availability edge cases; the prototype was then handed to the platform maintainers, who began adapting the useful ideas into the native uploader.
+4. **[Noise Loom: Making Rhythmic Experimentation Tactile](case-studies/08-noise-loom-composing-without-writing-a-daw.md)**  
+   An offline music sketch tool grew into a section-aware odd-meter arrangement instrument; real editing and saved-project failures became regression tests. The project was intentionally parked after a reliability milestone.
+
+## Model behavior, context, and collaboration case studies
+
+5. **[When More Metadata Made the Recommender Worse](case-studies/01-when-more-metadata-made-the-recommender-worse.md)**  
+   Structural metadata-density bias and slate composition, uncovered after two seemingly correct scoring fixes failed to solve the real recommendation problem.
+
+6. **[Stop Making the Human Be the API](case-studies/02-stop-making-the-human-be-the-api.md)**  
+   Continuum simplified into an MCP context engine so humans did not have to become the bridge between models and projects.
+
+7. **[Two Humans, Two AIs, One Canonical Creative Project](case-studies/03-two-humans-two-ais-one-canonical-project.md)**  
+   Shared repository truth, provenance, context handoff, authority, and human creative agency across distinct AI conversations.
+
+8. **[The Status Wasn't the State](case-studies/04-the-status-wasnt-the-state.md)**  
+   Reconciled event booking, play history, radio rotation, and backend status into a useful local workflow that was handed to native platform maintainers.
 
 ## Earlier systems work
 
@@ -56,6 +75,11 @@ I include this separately because it helps establish that the underlying pattern
 
 ## Portfolio descriptor
 
-**AI Product & Model Behavior Designer**
+**AI Product & Model Behavior Designer** (portfolio descriptor), with demonstrated work in **AI-native product direction and multi-agent workflow design**
 
 This is a portfolio descriptor, not a claim of a previous formal job title. The work sits at the intersection of product reasoning, model behavior, evaluation, human-AI interaction, multi-model workflows, cross-disciplinary systems thinking, and AI-assisted systems design.
+## Evidence and status
+
+These are first-person, AI-assisted case studies supported by project repositories, tests, operating notes, and real-use observations. Several underlying repositories are private; public descriptions deliberately omit internal configuration and credentials. A repo, a passing test, a deployed page, and a production-accepted workflow are not interchangeable evidence. Individual case studies call out open acceptance work and what AI agents implemented.
+
+This portfolio is not a claim of formal software engineering, ML research, or prior employment under these role titles.
