@@ -18,6 +18,10 @@ I use frontier AI systems for:
 
 I do not represent AI-generated implementation as evidence that I personally possess conventional software-engineering depth.
 
+Much of the recent evidence is in running or tested applications rather than only written model-behavior investigations. That does not alter the authorship boundary. I direct product semantics, user workflows, acceptance criteria, priority, testing and release decisions; AI agents generally write the application code and many tests. Technical collaborators or outside maintainers retain credit for their own implementation.
+
+Project status is important. A source milestone, passing automated test, deployed audience page, accepted beta, and verified production broadcast are different claims. The newer cases note where device tests, provider integration, real-user acceptance, or live publishing remain incomplete.
+
 The work I am presenting as mine is:
 
 - identifying the problem worth solving;
